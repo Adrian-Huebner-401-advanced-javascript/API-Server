@@ -14,13 +14,13 @@ class People extends DataModel {
     };
   }
 
-  static sampleRecord() {
-    return {
-      'firstName': 'Test',
-      'lastName': 'User',
-      'age': 50,
-    };
-  }
+  // static sampleRecord() {
+  //   return {
+  //     'firstName': 'Test',
+  //     'lastName': 'User',
+  //     'age': 50,
+  //   };
+  // }
 
 }
 
