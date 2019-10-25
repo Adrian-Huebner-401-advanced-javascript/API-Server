@@ -7,8 +7,8 @@
 ### Links and Resources
 
 * [repo](https://github.com/Adrian-Huebner-401-advanced-javascript/API-Server/pull/1)
-* [Travis link](https://www.travis-ci.com/g)
-* [back-end](https://.herokuapp.com/)
+* [Travis link](https://www.travis-ci.com/Adrian-Huebner-401-advanced-javascript/API-Server)
+* [back-end](https://adrianhuebner-api-server.herokuapp.com/)
 
 #### Documentation
 
