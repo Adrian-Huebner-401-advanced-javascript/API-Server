@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-* [repo](https://github.com/)
+* [repo](https://github.com/Adrian-Huebner-401-advanced-javascript/API-Server/pull/1)
 * [Travis link](https://www.travis-ci.com/g)
 * [back-end](https://.herokuapp.com/)
 
@@ -68,3 +68,7 @@ Running Mongo:
 * * Asserts that post, get, put and delete work correctly for /categories
 * What assertions need to be / should be made?
 * * Assertions need to be made for the /products route to check categories
+
+### UML
+
+![UMLforAPI-Server](./assets/UML-API-Server.jpeg)
