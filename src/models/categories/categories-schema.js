@@ -7,20 +7,20 @@ const categories = mongoose.Schema({
   description: { type: String },
 }, { toObject:{virtuals:true}, toJSON:{virtuals:true} });
 
-categories.virtual('tasks', {
-  ref: 'todo',
-  localField: 'name',
-  foreignField: 'category',
-  justOne:false,
-});
+// categories.virtual('tasks', {
+//   ref: 'todo',
+//   localField: 'name',
+//   foreignField: 'category',
+//   justOne:false,
+// });
 
-categories.pre('find', function() {
-  try {
-    this.populate('tasks');
-  }
-  catch(e) {
-    console.error('Find Error', e);
-  }
-});
+// categories.pre('find', function() {
+//   try {
+//     this.populate('tasks');
+//   }
+//   catch(e) {
+//     console.error('Find Error', e);
+//   }
+// });
 
 module.exports = mongoose.model('categories', categories);
